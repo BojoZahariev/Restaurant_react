@@ -25,12 +25,24 @@ class Middle extends React.Component {
   }
 }
 
+class Icons extends React.Component {
+  render() {
+    return (
+      <div className="icons">
+        <span className="icon-left">{this.props.textLeft}</span>
+        <span className="icon-right">{this.props.textRight}</span>
+      </div>
+    );
+  }
+}
+
 class BigContainer extends React.Component {
   render() {
     return (
       <div className="big-container">
         <Title title="Vodolaza" smallTitle="The best Pub & Fish Restaurant in Plovdiv" />
         <Middle />
+        <Icons textLeft="Menu" textRight="Find us" />
       </div>
     );
   }
