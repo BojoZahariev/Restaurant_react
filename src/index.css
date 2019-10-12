@@ -97,7 +97,7 @@
 
 /*MENU*/
 
-#menu-background {
+.menu-background {
   height: 90vh;
   width: 600px;
   margin: auto;
@@ -109,7 +109,7 @@
   border: 2px solid #6ca6c1;
 }
 
-#menu {
+.menu {
   display: flex;
   justify-content: space-between;
   padding-top: 220px;
@@ -158,8 +158,8 @@
 
 /*LOCATION*/
 
-#address,
-#hours {
+.address,
+.hours {
   padding-top: 80px;
   margin-bottom: 30px;
   font-size: 45px;
@@ -168,7 +168,7 @@
   color: #fffffc;
 }
 
-#map {
+.map {
   height: 400px;
   width: 600px;
   margin: auto;
@@ -184,13 +184,16 @@
   .title {
     padding-top: 20px;
   }
+  .middle {
+    height: 280px;
+  }
 
-  #menu {
+  .menu {
     padding-top: 70px;
   }
 
-  #address,
-  #hours {
+  .address,
+  .hours {
     padding-top: 20px;
     margin-bottom: 10px;
     font-size: 35px;
@@ -199,7 +202,7 @@
     color: #fffffc;
   }
 
-  #map {
+  .map {
     height: 300px;
     width: 500px;
     margin: auto;
@@ -230,7 +233,7 @@
   }
 
   .small-title,
-  #address {
+  .address {
     padding-top: 50px;
     margin-bottom: 50px;
     font-size: 30px;
@@ -249,17 +252,17 @@
     line-height: 100px;
   }
 
-  #menu-background,
-  #map {
+  .menu-background,
+  .map {
     width: 100%;
   }
 
-  #menu {
+  .menu {
     padding-top: 150px;
   }
 
-  #hours,
-  #address {
+  .hours,
+  .address {
     font-size: 20px;
     padding-top: 0px;
   }
