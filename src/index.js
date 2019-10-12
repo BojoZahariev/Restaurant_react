@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './reset.css';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 //HOME
@@ -25,33 +24,6 @@ class Middle extends React.Component {
     return <div className="middle"></div>;
   }
 }
-
-/*
-class Icons extends React.Component {
-  render() {
-    return (
-      <div className="icons">
-        <span className="icon-left">{this.props.textLeft}</span>
-        <span className="icon-right">{this.props.textRight}</span>
-      </div>
-    );
-  }
-}
-*/
-
-/*
-class HomeScreen extends React.Component {
-  render() {
-    return (
-      <div className="home-screen">
-        <Title title="Vodolaza" smallTitle="The best Pub & Fish Restaurant in Plovdiv" />
-        <Middle />
-        <Icons textLeft="Menu" textRight="Find us" />
-      </div>
-    );
-  }
-}
-*/
 
 //MENU
 class MenuBackground extends React.Component {
@@ -78,19 +50,6 @@ class MenuBackground extends React.Component {
     );
   }
 }
-
-/*
-class MenuScreen extends React.Component {
-  render() {
-    return (
-      <div className="menu-screen">
-        <MenuBackground />
-        <Icons textLeft="Menu" textRight="Find us" />
-      </div>
-    );
-  }
-}
-*/
 
 class FindUs extends React.Component {
   render() {
