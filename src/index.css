@@ -11,20 +11,20 @@
   text-align: center;
 }
 
-#title {
+.title {
   color: #fffffc;
   text-align: center;
   padding-top: 120px;
   font-family: 'Lobster', cursive;
 }
 
-#big-title {
+.big-title {
   color: #6ca6c1;
   font-size: 90px;
   text-shadow: 2px 2px #000;
 }
 
-#small-title {
+.small-title {
   padding-top: 80px;
   margin-bottom: 30px;
   font-size: 45px;
@@ -32,7 +32,7 @@
   text-shadow: 2px 2px #6ca6c1;
 }
 
-#middle {
+.middle {
   width: 100%;
   height: 380px;
   background-image: url(./images/inside.jpg);
@@ -181,7 +181,7 @@
 }
 
 @media all and (max-height: 870px) {
-  #title {
+  .title {
     padding-top: 20px;
   }
 
@@ -221,22 +221,22 @@
 }
 
 @media all and (max-width: 768px) {
-  #title {
+  .title {
     padding-top: 50px;
   }
 
-  #big-title {
+  .big-title {
     font-size: 60px;
   }
 
-  #small-title,
+  .small-title,
   #address {
     padding-top: 50px;
     margin-bottom: 50px;
     font-size: 30px;
   }
 
-  #middle {
+  .middle {
     height: 280px;
   }
 

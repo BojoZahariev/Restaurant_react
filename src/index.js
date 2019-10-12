@@ -5,9 +5,34 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+class Title extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <div className="title">
+        <p className="big-title">{this.props.title}</p>
+        <p className="small-title">{this.props.smallTitle}</p>
+      </div>
+    );
+  }
+}
+
+class Middle extends React.Component {
+  render() {
+    return <div className="middle"></div>;
+  }
+}
+
 class BigContainer extends React.Component {
   render() {
-    return <div className="big-container"></div>;
+    return (
+      <div className="big-container">
+        <Title title="Vodolaza" smallTitle="The best Pub & Fish Restaurant in Plovdiv" />
+        <Middle />
+      </div>
+    );
   }
 }
 
