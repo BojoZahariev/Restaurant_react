@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Reastaurant_react/static/css/main.247ded3c.chunk.css",
+    "main.js": "/Reastaurant_react/static/js/main.b2d5dc59.chunk.js",
+    "main.js.map": "/Reastaurant_react/static/js/main.b2d5dc59.chunk.js.map",
+    "runtime-main.js": "/Reastaurant_react/static/js/runtime-main.375408e6.js",
+    "runtime-main.js.map": "/Reastaurant_react/static/js/runtime-main.375408e6.js.map",
+    "static/js/2.e918603a.chunk.js": "/Reastaurant_react/static/js/2.e918603a.chunk.js",
+    "static/js/2.e918603a.chunk.js.map": "/Reastaurant_react/static/js/2.e918603a.chunk.js.map",
+    "index.html": "/Reastaurant_react/index.html",
+    "precache-manifest.092c2e38c35e986478bab6e2589ef3f7.js": "/Reastaurant_react/precache-manifest.092c2e38c35e986478bab6e2589ef3f7.js",
+    "service-worker.js": "/Reastaurant_react/service-worker.js",
+    "static/css/main.247ded3c.chunk.css.map": "/Reastaurant_react/static/css/main.247ded3c.chunk.css.map",
+    "static/media/index.css": "/Reastaurant_react/static/media/silverware-1667988_640.1f71718c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.375408e6.js",
+    "static/js/2.e918603a.chunk.js",
+    "static/css/main.247ded3c.chunk.css",
+    "static/js/main.b2d5dc59.chunk.js"
+  ]
+}
