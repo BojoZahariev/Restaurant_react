@@ -6,9 +6,6 @@ import * as serviceWorker from './serviceWorker';
 
 //HOME
 class Title extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div className="title">
@@ -51,6 +48,7 @@ class MenuBackground extends React.Component {
   }
 }
 
+//Find us
 class FindUs extends React.Component {
   render() {
     return (
@@ -60,6 +58,26 @@ class FindUs extends React.Component {
         <div className="map"></div>
 
         <p className="hours">Opening Hours: 9:30am–9:30pm</p>
+      </div>
+    );
+  }
+}
+
+class IconLeft extends React.Component {
+  render() {
+    return (
+      <div className="icon-left" onClick={this.props.toggleDisplayLeft}>
+        {this.props.text}
+      </div>
+    );
+  }
+}
+
+class IconRight extends React.Component {
+  render() {
+    return (
+      <div className="icon-right" onClick={this.props.toggleDisplayRight}>
+        {this.props.text}
       </div>
     );
   }
@@ -108,12 +126,9 @@ class BigContainer extends React.Component {
           <Middle />
 
           <div className="icons">
-            <span className="icon-left" onClick={this.toggleDisplayLeft}>
-              Menu
-            </span>
-            <span className="icon-right" onClick={this.toggleDisplayRight}>
-              Find us
-            </span>
+            <IconLeft text="Menu" toggleDisplayLeft={this.toggleDisplayLeft} />
+
+            <IconRight text="Find us" toggleDisplayRight={this.toggleDisplayRight} />
           </div>
         </div>
       );
@@ -123,12 +138,9 @@ class BigContainer extends React.Component {
           <MenuBackground />
 
           <div className="icons">
-            <span className="icon-left" onClick={this.toggleDisplayLeft}>
-              Home
-            </span>
-            <span className="icon-right" onClick={this.toggleDisplayRight}>
-              Find us
-            </span>
+            <IconLeft text="Home" toggleDisplayLeft={this.toggleDisplayLeft} />
+
+            <IconRight text="Find us" toggleDisplayRight={this.toggleDisplayRight} />
           </div>
         </div>
       );
@@ -138,12 +150,9 @@ class BigContainer extends React.Component {
           <FindUs />
 
           <div className="icons">
-            <span className="icon-left" onClick={this.toggleDisplayLeft}>
-              Menu
-            </span>
-            <span className="icon-right" onClick={this.toggleDisplayRight}>
-              Home
-            </span>
+            <IconLeft text="Menu" toggleDisplayLeft={this.toggleDisplayLeft} />
+
+            <IconRight text="Home" toggleDisplayRight={this.toggleDisplayRight} />
           </div>
         </div>
       );

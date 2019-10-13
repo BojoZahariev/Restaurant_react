@@ -132,30 +132,6 @@
   padding-left: 0px;
 }
 
-.icon-left-menu,
-.icon-right-location {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  cursor: pointer;
-  display: inline-block;
-  line-height: 150px;
-  font-size: 25px;
-  font-family: 'Lobster', cursive;
-  user-select: none;
-  text-decoration: none;
-  background-color: #8fc0a9;
-  color: #222;
-}
-
-.icon-left-menu {
-  margin-right: 5px;
-}
-
-.icon-right-location {
-  margin-left: 5px;
-}
-
 /*LOCATION*/
 
 .address,
@@ -209,9 +185,7 @@
   }
 
   .icon-left,
-  .icon-right,
-  .icon-left-menu,
-  .icon-right-location {
+  .icon-right {
     height: 100px;
     width: 100px;
     line-height: 100px;
@@ -244,9 +218,7 @@
   }
 
   .icon-left,
-  .icon-right,
-  .icon-left-menu,
-  .icon-right-location {
+  .icon-right {
     height: 100px;
     width: 100px;
     line-height: 100px;
